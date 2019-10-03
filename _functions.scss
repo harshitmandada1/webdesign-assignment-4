@@ -1,6 +1,0 @@
-//created function to be called when required
-@function calc-percent($target, $container) {
-    @if $container > $target {
-        @return($target / $container) * 100%;
-      }
-    }
