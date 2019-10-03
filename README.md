@@ -1,4 +1,4 @@
-##CleanNow Website
+## CleanNow Website
 
 An app for ordering cleaning services named CleanNow.
 This app has the following files and functionality:
@@ -30,14 +30,14 @@ Follow below steps to lauch the app using `webpack-dev-server`.
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
 
-##Want to contribute?
+## Want to contribute?
 
 1. Got an amazing idea to make the plugin better?
 2. Found an annoying bug?
 
 Please don't hesitate to raise an issue through GitHub or open a pull request to show off your fancy pants coding skills - we'll really appreciate it!
 
-##Key Contributors
+## Key Contributors
 @harshitmandada1
 @amuthanarulraj
 
