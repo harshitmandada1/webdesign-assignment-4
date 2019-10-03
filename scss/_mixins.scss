@@ -1,0 +1,64 @@
+//defined mixins in this page
+
+@mixin choose($property) { //using mixin we can save lot of code 
+    float: left;
+    width :350px;
+    margin-left:$property;
+    h2{
+        text-align: center;
+    }
+    p{
+        color:black;
+        line-height: 1.8;
+    }
+  }
+  
+  @mixin submit($color,$bgcolor){
+    color: $color;
+      border:hidden;
+      padding: 15px;
+      background-color: $bgcolor;
+      border: 1px solid rgb(199, 195, 195);
+      margin:0px;
+      border-radius: 30px;
+  }
+  
+  @mixin clean($margin){
+    float: left;
+    width :250px;
+    margin-left:$margin;
+    h2{
+        text-align:left;
+    }
+    p{
+        color:black;
+        line-height: 1.8;
+  
+    }
+    
+  }
+  
+  @mixin photo($url){
+    background-repeat: no-repeat;
+        background-image: url($url);
+        border-radius: 50%;
+        background-color:$page-color;
+      
+      margin-left:20%;
+      margin-right:10%;
+      height: 300px;
+      width:300px;
+      background-position: 50%;
+    }
+  
+    @mixin back-img($url1){
+        background-image: url($url1);
+        opacity:0.8;
+  background-color: #cccccc;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+        
+    }
