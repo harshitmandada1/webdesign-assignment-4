@@ -1,0 +1,38 @@
+//code related to cleaning services
+.circle{
+  border-radius: 50%;
+  background-color:$page-color;
+  margin:auto;
+  height: 150px;
+  width:150px;
+
+}
+.Qmark{
+  font-size:40px;
+  color:white;
+  padding: 4px 10px 0px 10px;
+  margin:50px;
+  border: 6px solid white;
+  border-radius: 8px;
+
+
+}
+.Qmark1{
+  float: left;
+  font-size:40px;
+  color:$page-color;
+  padding: 0px 10px 0px 10px;
+  margin:10px;
+  margin-left:0px;
+  border: 6px solid $page-color;
+  border-radius: 8px;
+  width: 20px;
+  height:60px;
+}
+
+/*creating a piece of code to be inherited*/
+%grid-share{
+  text-align: center;
+  color: $page-color;
+  align-content: center; 
+}

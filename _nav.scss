@@ -1,0 +1,42 @@
+//the data relating to the nav bar is stored here
+.data{
+    padding-left: $padding-left;
+}
+.data1{
+    float:right;
+    padding-right: $padding-left;
+}
+.green{
+    color:$page-color;
+}
+.clean{
+    font-size:30px;
+    float: left;
+    padding-top:14px;
+    padding-left:$padding-left;
+    
+    a{
+    text-decoration: none;
+    color:$page-color;
+     }
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left:20%;
+    padding-right:5%;
+    overflow: hidden;
+    background-color:white
+  }
+  
+li {
+    float: left; 
+    a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}
